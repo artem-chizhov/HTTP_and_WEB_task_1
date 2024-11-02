@@ -17,9 +17,6 @@ public class Server {
     private final ExecutorService executorService = Executors.newFixedThreadPool(64);
     private static final int PORT = 9999;
 
-//    public Server() {
-//
-//    }
 
     public void run() {
         try (final ServerSocket serverSocket = new ServerSocket(PORT)) {
